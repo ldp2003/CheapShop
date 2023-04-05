@@ -1,0 +1,239 @@
+body
+{
+    margin: 0px;
+}
+.logo
+{
+    /* height: 57px;
+    width: 65px;  */
+    margin-left: 39px;
+    border-radius: 70%;
+
+}
+.menu
+{
+    background-color: #3a4248;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 64px;
+    position: sticky;
+    top: 0%;
+    align-items: center;
+    z-index: 9999;
+}
+.menuSupport{
+    color: #e05314;
+    margin-left: -20px;
+    width: 40%  ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0;
+}
+.menuSupport a{
+    font-family: Sarabun;
+    color: #e05314;
+    text-decoration: none;
+}
+.search
+{
+    position: relative;
+    /* margin-left: 85px; */
+    width: 50%;
+}
+.SearchField
+{
+    width: 100%;
+    height: 50%;
+    outline: none;
+    padding-left: 30px;
+}
+.signin
+{
+    border-radius: 97px;
+    background-color: #e03514;
+    border: 0px;
+    color: white;
+    width: 105.55px;
+    height: 44px;
+}
+.signin:hover
+{
+    background-color: #d43414;
+    cursor: pointer;
+}
+.logo :hover
+{
+    cursor: pointer;
+}
+.SignIn
+{
+    margin-left: 84px;
+    margin-right: 43px;
+}
+
+.Sign_in_body
+{
+    background-image: url("BannerImg/BackGround.png");
+    width: 100%;
+    height: 660px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+.left
+{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+    margin: 0px;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 50%;
+    left: 0;
+    flex: 1;
+    order: 1;
+}
+.container
+{
+    width: 100%;
+    height: 100%;
+}
+.logobanner
+{
+    position: absolute;
+    transform: translate(210px, 150px);
+    width: 135px;
+    height: 114px;
+}
+@font-face {
+    font-family: Sansita_one;
+    src: url('Fontchu/sansita-one.regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Sarabun;
+    src: url('Fontchu/Sarabun-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.Title
+{
+    font-family: Sansita_one;
+    color: #ffff;
+    font-size: 48px;
+    position: absolute;
+    transform: translate(150px, 220px);
+}
+.contact
+{
+    font-size: 20px;
+    margin-bottom: 35px;
+    position: absolute;
+    top: 80%;
+    left: 20%;
+
+}
+.interNet
+{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+}
+.interNet a
+{
+    width: 53.17px;
+    height: 46.74px;
+}
+.right
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    flex: 1;
+    order: 2;
+    position: relative;
+    margin-top: 70px;
+    font-family: Sarabun;
+}
+.text{
+    color: #ffff;
+    font-family: Sarabun;
+    font-size: 29px;
+    margin-bottom: 30px;
+}
+.user
+{
+    border: 2px #ffff solid;
+    width: 58.44px;
+    height: 52px;
+    text-align: center;
+    border-radius: 50%;
+}
+.mailNpassword
+{
+    color: #ffff;
+    font-size: 14px;
+    font-family: Sarabun;
+}
+.mailNpassword input
+{
+    border: 3px #e05314 solid;
+    border-radius: 10px;
+    width: 352px;
+    height: 24px;
+    outline: none;
+}
+.right a
+{
+    text-decoration: none;
+    color: #3abbe3;
+    
+}
+
+.Q
+{
+    transform: translate(110%, -10px);
+    font-size: 16px;
+    margin: 0;
+}
+.Q2
+{
+    transform: translate(50%, 0);
+    margin: 0;
+    color: #ffff;
+}
+.anotherWay
+{
+    color: #ffff;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.face
+{
+    background-color: #4267b2;
+    border: 0;
+    width: 360px;
+    height: 52px;
+    margin-top: 5px;
+    text-align: left;
+    font-size: 18px;
+}
+.google
+{
+    background-color: #ea4335;
+    border: 0;
+    width: 360px;
+    height: 52px;
+    margin-top: 5px;
+    color: #ffff;
+    text-align: left;
+    font-size: 18px;
+}
