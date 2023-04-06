@@ -120,9 +120,9 @@ body
 {
     font-family: Sansita_one;
     color: #ffff;
-    position: absolute;
-    top: 25%;
-    left: 20%;
+    position: fixed;
+    top: 38%;
+    left: 10%;
     font-size: 48px;
 }
 .contact
