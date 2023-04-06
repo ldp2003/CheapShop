@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../CSS/style.css">
     <title>CheapShop</title>
 </head>
-<body>
+<body style="background-image: url(../Image/BG2.png); background-size: cover; background-repeat: no-repeat; min-height: 100vh; min-width: 100vh;">
     <div id="banner">
         <div class="container">
             <div class="menu">
                 <div class="logo">
-                    <img src="BannerImg/logo2.png" alt="" class="logo">
+                    <img src="../Image/logo2.png" alt="" class="logo">
                 </div>
                 <ul class="menuSupport">
                     <p>
@@ -29,17 +29,20 @@
                     <input type="search" placeholder="Tìm kiếm" class="SearchField">
                 </div>
                 <div class="SignIn">
-                    <button class="signin">Đăng nhập</button>
+                    <button class="signin"><a style ="padding: 20px; text-decoration: none; color: white;" href="Sign_in.html">Đăng nhập</a></button>
                 </div>
             </div>
             <div class="BannerBody">
                 <div class="Body">  
                     <div class="left">
-                        <img src="BannerImg/Plapla.png" alt="" style="width: 100%; height: 440.98px;" class="speImg">
-                        <img src="BannerImg/logo.png" alt="" style="width: fit-content;" class="logobanner">
-                        <h1 class="Title"   >CheapShop</h1>
-                        <p class="slogan">Lựa chọn người bạn đồng hành dành riêng cho bạn <br>
+                        <img src="../Image/logo.png" alt="" style="width: fit-content;" class="logobanner">
+                        <div class="Title">
+                            <h1 style="font-size: 48px; font-family: Sansita_one;">CheapShop</h1>
+                            <br>
+                            <p style="font-size: 200%; font-family: Sarabun;">Lựa chọn người bạn đồng hành dành riêng cho bạn <br>
                         Mang đến những trải nghiệm đỉnh kout!</p>
+                        </div>
+                        
                         <div class="btn">
                             <button style="background-color: #e05314; color: #fff9f9;"><i class="fa-solid fa-cart-shopping" style="color: #e9e9e9; "></i> Shopping</button>
                             <button style="background-color: #fff9f9; color: #e05314;">Tìm hiểu thêm</button>
@@ -53,12 +56,11 @@
                                 <a href=""><i class="fa-brands fa-tiktok fa-2xl" style="color: #e9e9e9;"></i></a>
                                 <a href=""><i class="fa-brands fa-youtube fa-2xl" style="color: #e9e9e9;"></i></a>
                             </div>
-                           
                         </div>
                     </div>
                     <div class="right">
                         <div class="proIntro">
-                            <!-- <img src="BannerImg/SanPham.png" alt="" style="width: 658px; height: 595px;" class="Sp"> -->
+                            <img src="../Image/SanPham.png" alt="" style="width: 80%; height: 75%;" class="Sp"> 
                             <button class="slide">>></button>
                         </div>
                         <div class="box">

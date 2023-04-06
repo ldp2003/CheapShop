@@ -1,6 +1,13 @@
+*
+{
+    margin: 0px auto;
+    padding: 0;
+    box-sizing: border-box;
+}
 body
 {
     margin: 0px;
+    width: 100%;
 }
 .logo
 {
@@ -9,6 +16,11 @@ body
     margin-left: 39px;
     border-radius: 70%;
 
+}
+#banner
+{
+    min-width: 100%;
+    min-height: 100vh;
 }
 .menu
 {
@@ -20,6 +32,7 @@ body
     top: 0%;
     align-items: center;
     z-index: 9999;
+    min-width: 100%;
 }
 .menuSupport{
     color: #e05314;
@@ -73,17 +86,14 @@ body
 }
 .container
 {
-    width: fit-content;
-    background-image: url("BannerImg/BackGround.jpg");
-    background-size: cover;
-    height: fit-content;
-    background-repeat: no-repeat;
-    position: relative;
+    min-width: 100%;
+    min-height: 100vh;
+   
 }
 .BannerBody
 {
-    /* height: 100%; */
-    width: 100%;
+    min-width: 100%;
+    height: 100vh;
     margin: 0px;
 }
 .Body
@@ -92,44 +102,42 @@ body
     flex-direction: row;
     margin: 0px;
     flex-wrap: wrap;
-
+    min-width: 100%;
+    height: 100vh;
 }
 @media (max-width: 760px) {
     .Body{
         flex-direction: column;
     }
-    .container
-    {
-        background-repeat: repeat;
-    }
+   
 }
 @font-face {
     font-family: Sansita_one;
-    src: url('Fontchu/sansita-one.regular.ttf') format('truetype');
+    src: url('../Fontchu/sansita-one.regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: Sarabun;
-    src: url('Fontchu/Sarabun-Regular.ttf') format('truetype');
+    src: url('../Fontchu/Sarabun-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 .Title
 {
-    font-family: Sansita_one;
     color: #ffff;
-    font-size: 48px;
     position: absolute;
-    transform: translate(100px, 190px);
+    top: 50%;
+    left: 5%;
 }
 .slogan
 {
     color: white;
     font-family: Sarabun;
     position: absolute;
-    transform: translate(100px, 270px);
-    font-size: 120%;
+    top: 60%;
+    left: 15%;
+    font-size: 200%;
 }
 .btn button
 {
@@ -158,7 +166,8 @@ body
 .logobanner
 {
     position: absolute;
-    transform: translate(170px, 80px);
+    top: 22.5%;
+    left: 10%;
     width: 135px;
     height: 114px;
 
@@ -167,7 +176,8 @@ body
     display: flex;
     flex-direction: row;
     gap: 50px;
-    margin-left: 50px;
+    position: absolute;
+    top: 105%;
 }
 .contact
 {
@@ -203,12 +213,7 @@ body
 .proIntro
 {
     position: relative;
-    background-image: url("BannerImg/SanPham.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 758px; 
-    height: 595px;
-    border-radius: 241px;
+    
 }
 .slide
 {
