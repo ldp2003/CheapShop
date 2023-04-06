@@ -104,6 +104,10 @@ body
     min-width: 100%;
     position: relative;
 }
+@media only screen and (min-width: 1440px)
+{
+
+}
 @media only screen and (max-width: 46.1875em)
 {
 
@@ -235,7 +239,7 @@ body
     gap: 10px;
     position: absolute;
     left: 35%;
-    top: 102%;
+    top: 95%;
 }
 .soTrang
 {
