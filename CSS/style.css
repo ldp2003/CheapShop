@@ -108,6 +108,7 @@ body
 @media (max-width: 760px) {
     .Body{
         flex-direction: column;
+        flex-wrap: wrap;
     }
    
 }
@@ -127,18 +128,10 @@ body
 {
     color: #ffff;
     position: absolute;
-    top: 50%;
-    left: 5%;
+    top: 40%;
+    left: 11%;
 }
-.slogan
-{
-    color: white;
-    font-family: Sarabun;
-    position: absolute;
-    top: 60%;
-    left: 15%;
-    font-size: 200%;
-}
+
 .btn button
 {
     border: 3px #e05314 solid;
@@ -155,7 +148,7 @@ body
 {
     display: flex;
     flex-direction: column;
-    position: relative;
+    position: static;
     margin: 0px;
     margin-top: 20px;
     margin-left: 10%;
@@ -163,26 +156,27 @@ body
     flex: 1;
     order: 1;
 }
-.logobanner
+.right
 {
-    position: absolute;
-    top: 22.5%;
-    left: 10%;
-    width: 135px;
-    height: 114px;
-
+    margin-top: 33px;
+    flex: 1;
+    order: 2;
+    position: static;
 }
+
 .btn{
     display: flex;
     flex-direction: row;
     gap: 50px;
     position: absolute;
-    top: 105%;
+    top: 73%;
 }
 .contact
 {
     font-size: 20px;
     margin-bottom: 35px;
+    position: absolute;
+    top: 85%;
 }
 .interNet
 {
@@ -196,46 +190,25 @@ body
     width: 53.17px;
     height: 46.74px;
 }
-.right
-{
-    margin-top: 33px;
-    /* margin-left: -100px; */
-    z-index: 999;
-    flex: 1;
-    order: 2;
-    position: relative;
-}
+
 .Sp
 {
-    border-radius: 241px;
+    border-radius: 36%;
   
 }
 .proIntro
 {
     position: relative;
-    
 }
-.slide
-{
-    position: absolute;
-    border: 0px;
-    background-color: rgba(153, 153, 153, 0.3);
-    border-radius: 110px;
-    height: 46px;
-    width: 53px;
-    font-size: 150%;
-    color: white;
-    top: 45%;
-    left: 91%;
-}
+
 .box
 {
     display: flex;
     flex-direction: row;
     gap: 10px;
     position: absolute;
-    left: 42%;
-    top: 97%;
+    left: 43%;
+    top: 102%;
 }
 .soTrang
 {
