@@ -154,9 +154,9 @@ body
 .Title
 {
     color: #ffff;
-    position: relative;
+    position: absolute;
     top: 35%;
-    left: -5%;
+    left: 1%;
 }
 
 .btn button
