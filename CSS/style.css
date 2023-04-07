@@ -100,6 +100,119 @@ body
     align-items: center;
     font-size: 150%;
 }
+.nav__bars-btn
+{
+    width: 28px;
+    height: 28px;
+    display: none;
+}
+.nav__overlay
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+    animation: fadein linear 0.3s;
+}
+.nav_mobile
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 320px;
+    max-width: 100%;
+    background-color: #3a4248;
+    transform: translateX(100%);
+    opacity: 0;
+    transition: transform linear 0.3s, opacity linear 0.3s;
+}
+.nav__mobile-close
+{
+    /* font-size: 1.4rem; */
+
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+.nav_mobile-list
+{
+    margin-top: 24px;
+   color: #ffff;
+   list-style-type: none;
+   font-family: Sarabun;
+   font-size: 16px;
+}
+.nav_mobile-list-list1
+{
+    border-bottom: 1px rgba(32, 32, 32, 0.5) solid;
+    padding-bottom: 10px;
+    list-style-type: none;
+}
+.nav_mobile-list-list2
+{
+    border-bottom: 1px rgba(32, 32, 32, 0.5) solid;
+    padding-bottom: 10px;
+    list-style-type: none;
+}
+.nav_mobile-link
+{
+    text-decoration: none;
+    display: block;
+    padding: 8px 0;
+    font-size: 1rem;
+    color: #ffff;
+   
+}
+.nav-input:checked ~ .nav__overlay{
+    display: block;
+}
+.nav-input:checked ~ .nav_mobile
+{
+    transform: translate(0);
+    opacity: 1;
+}
+/* Mobile nav */
+@media (max-width : 1024px)
+{
+    .nav__bars-btn
+    {
+        display: block;
+    }
+    .signin
+    {
+        display: none;
+    }
+    .signUp{
+        display: none;
+    }
+    .menuSupport
+    {
+        display: none;
+    }
+    .logo
+    {
+       margin-left: 20px;
+       margin-right: 20px;
+    }
+    .search
+    {
+        padding: auto;
+    }
+}
+@keyframes fadein
+{
+    format{
+        opacity: 0;
+    }
+    to
+    {
+        opacity: 1;
+    }
+}
 .SignIn
 {
     margin-left: 84px;
