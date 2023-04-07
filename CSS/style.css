@@ -138,6 +138,10 @@ body
     top: 1rem;
     right: 1rem;
 }
+.nav__mobile-close:hover
+{
+    cursor: pointer;
+}
 .nav_mobile-list
 {
     margin-top: 24px;
@@ -181,6 +185,11 @@ body
     .nav__bars-btn
     {
         display: block;
+        margin-right: 10px;
+    }
+    .nav__bars-btn:hover
+    {
+      cursor: pointer;
     }
     .signin
     {
