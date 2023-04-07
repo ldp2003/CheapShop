@@ -189,3 +189,26 @@ body
     top: 40%;
     font-size: 80%;
 }
+footer
+{
+    display: flex;
+    flex-direction: row;
+    background-color: #ffff;
+    justify-content: space-around;
+    padding-bottom: 15px;
+    border-top: 5px #e05314 solid;
+    margin-top: 133px;
+}
+.footer_content
+{
+    display: flex;
+    flex-direction: column;
+}
+footer p
+{
+    margin: 0;
+}
+footer img
+{
+    position: relative;
+}
