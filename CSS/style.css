@@ -303,6 +303,11 @@ body
     flex-direction: row;
     gap: 50px;
 }
+.btn a
+{
+    text-decoration: none;
+    
+}
 .contact
 {
     font-size: 20px;
