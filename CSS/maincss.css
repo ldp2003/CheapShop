@@ -170,6 +170,15 @@ body
     text-align: left;
     font-size: 90%;
 }
+.card-button{
+    color: #ffff; 
+    border: 0px;
+    border-radius: 20px;
+    background-color: #e05314;
+    font-size: 90%;
+    padding: 5px;
+    
+}
 .col
 {
     position: relative;
@@ -186,7 +195,7 @@ body
     color: #ef0b0b;
     padding-top: 2%;
     position: absolute;
-    top: 40%;
+    top: 0px;
     font-size: 80%;
 }
 footer

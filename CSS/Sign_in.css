@@ -20,15 +20,18 @@ body
     flex-direction: row;
     width: 100%;
     height: 64px;
-    position: relative;
+    position: sticky;
     top: 0%;
     align-items: center;
     z-index: 9999;
+    gap: 25px;
 }
 .menuSupport{
     color: #e05314;
+    margin-top: 0px;
     margin-left: -20px;
-    width: 20%  ;
+    margin-bottom: 0px;
+    min-width: 20%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -83,10 +86,11 @@ body
 }
 .SignIn
 {
-    margin-left: 84px;
-    margin-right: 43px;
+    margin-left: 20px;
+    margin-right: 20px;
     display: flex;
     flex-direction: row;
+    gap: 10px;
 }
 .signUp
 {
@@ -187,7 +191,7 @@ body
         margin-top: 13px;
         margin-right: 10px;
     }
-    .signin
+    .menu signin
     {
         display: none;
     }
@@ -244,7 +248,7 @@ body
     font-weight: normal;
     font-style: normal;
 }
-.right
+.form
 {
     display: flex;
     flex-direction: column;
@@ -287,7 +291,7 @@ body
     height: 24px;
     outline: none;
 }
-.right a
+.form a
 {
     text-decoration: none;
     color: #3abbe3;
@@ -307,8 +311,7 @@ body
 .anotherWay
 {
     color: #ffff;
-    margin-bottom: 5px;
-    margin-top: 10px;
+    margin-bottom: 0px;
 }
 .face
 {
