@@ -54,6 +54,8 @@ body
     padding: 10px;
     padding-left: 30px;
     box-sizing: border-box;
+    border-radius: 10px;
+    border: 2px #e05314 solid;
 }
 .signin
 {
