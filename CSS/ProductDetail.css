@@ -14,7 +14,6 @@ body
 }
 .menu
 {
-   
     display: flex;
     flex-direction: column;
     min-width: 100%;
@@ -252,14 +251,14 @@ body
 }
 .status p
 {
-    background-color: #389728;
-    width: 11.83206107%;
-    border-radius: 20px;
-    color: #ffff;
+    
 }
 .status
 {
-    transform: translateX(44%);
+    background-color: #389728;
+    width: fit-content;
+    border-radius: 20px;
+    color: #ffff;
 }
 .method
 {
@@ -284,7 +283,6 @@ body
     font-size: 80%;
     gap: 20px;
     align-items: baseline;
-    transform: translateX(1%);
 }
 .link-a a
 {
@@ -325,7 +323,7 @@ body
     border-radius: 15px;
     color: #ffff;
     height: 77px;
-    width: 50%;
+    width: 75%;
 }
 .buy-btn_others
 {
@@ -338,7 +336,7 @@ body
     border-radius: 15px;
     color: #ffff;
     height: 77px;
-    width: 24%;
+    width: 36%;
 }
 
 .gradient-img
