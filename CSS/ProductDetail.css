@@ -17,7 +17,7 @@ body
    
     display: flex;
     flex-direction: column;
-  min-width: 100%;
+    min-width: 100%;
     /* height: 64px; */
     /* position: fixed; */
     top: 0%;
@@ -140,87 +140,6 @@ body
 {
     margin: 25px 150px 0 150px;
 }
-.Hot-product, .Sale-product
-{
-    background-color: #e05314;
-    margin: 60px;
-    padding: 10px 50px 29px 50px;
-    border-radius: 32px;
-}
-.Hot-product-text
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    color: #ffff;
-}
-.Hot-product-text-content
-{
-    font-size: 1.4rem;
-    font-size: Sarabun;
-}
-.card-text
-{
-    color: #e05314;
-    text-align: left;
-}
-.card-title
-{
-    color: #ffff; 
-    text-align: left;
-    font-size: 90%;
-}
-.card-button{
-    color: #ffff; 
-    border: 0px;
-    border-radius: 20px;
-    background-color: #e05314;
-    font-size: 90%;
-    padding: 5px;
-    
-}
-.col
-{
-    position: relative;
-}
-.card-img-top
-{
-    border-radius: 21px;
-}
-.Sale-product-mark
-{
-    background-color: #f0f416;
-    width: 80px;
-    height: 34px;
-    color: #ef0b0b;
-    padding-top: 2%;
-    position: absolute;
-    top: 0px;
-    font-size: 80%;
-}
-footer
-{
-    display: flex;
-    flex-direction: row;
-    background-color: #ffff;
-    justify-content: space-around;
-    padding-bottom: 15px;
-    border-top: 5px #e05314 solid;
-    margin-top: 133px;
-}
-.footer_content
-{
-    display: flex;
-    flex-direction: column;
-}
-footer p
-{
-    margin: 0;
-}
-footer img
-{
-    position: relative;
-}
 .nav__overlay
 {
     position: fixed;
@@ -292,7 +211,7 @@ footer img
     color: #ffff;
     text-decoration: none;
     gap: 10px;
-margin: 0;
+    margin: 0;
 }
 .menu_nev_mobile_Tool
 {
@@ -302,36 +221,53 @@ margin: 0;
 {
     cursor: pointer;
 }
-
-
-@media (max-width : 1040px)
+.proDetails
 {
-    .search
-    {
-        display: none;
-    }
-    .menu-Tool
-    {
-        display: none;
-    }
-    .menuSupport
-    {
-        display: none;
-    }
-    .menu_nev_mobile_Tool
-    {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        width: 100vh;
-        align-items: center;
-    }
-    .logo
-    {
-        display: none;
-    }
-    .justify-content-center
-    {
-        margin: 0;
-    }
+    color: #ffff;
+    font-size: 20px;
+}
+.product img
+{
+    width: 100%;
+    max-width: 80%;
+    height: 393px;
+}
+.detail
+{
+    background-color: #d9d9d9;
+    text-align: left;
+    width: 100%;
+    max-width: 80%;
+    transform: translateX(12.45%);
+    margin-top: 20px;
+}
+.listDetails
+{
+    list-style-type: none;
+}
+.status p
+{
+    background-color: #389728;
+    width: 11.83206107%;
+    border-radius: 20px;
+    color: #ffff;
+}
+.status
+{
+    transform: translateX(44%);
+}
+.method
+{
+    color: #ffff;
+    font-size: 20px;
+}
+.originPrice
+{
+   font-size: 32px;
+   color: #ef0b0b;
+}
+.newPrice
+{
+    color: #B7BFC3;
+    font-size: 20px;
 }
