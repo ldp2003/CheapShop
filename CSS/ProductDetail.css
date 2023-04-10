@@ -67,7 +67,7 @@ body
     padding-left: 30px;
     box-sizing: border-box;
     border-radius: 10px;
-    border: 2px #e05314 solid solid;
+    border: 2px #e05314 solid;
 }
 .logo a{
     display: flex;
@@ -266,13 +266,13 @@ body
 }
 .originPrice
 {
-   font-size: 32px;
+   font-size: 159%;
    color: #ef0b0b;
 }
 .newPrice
 {
     color: #B7BFC3;
-    font-size: 20px;
+    font-size: 117%;
 }
 .link-a
 {
@@ -321,8 +321,12 @@ body
     border: 0;
     border-radius: 15px;
     color: #ffff;
-    height: 77px;
+    min-height: 8vh;    
     width: 75%;
+}
+.buy-btn:hover
+{
+    background-color: #d62929;
 }
 .buy-btn_others
 {
@@ -334,8 +338,8 @@ body
     border: 0;
     border-radius: 15px;
     color: #ffff;
-    height: 77px;
     width: 36%;
+    min-height: 8vh;
 }
 
 .gradient-img
@@ -344,12 +348,11 @@ body
     background-size: cover;
     background-repeat: no-repeat;
     height: 50vh;
-    background-position: center;
+    background-position: center center;
 }
 .see-more
 {
-    /* position: relative; */
-    transform: translateY(800%);
+    transform: translateY(390%);
 }
 .see-more-btn
 {
@@ -383,7 +386,7 @@ footer img
     position: relative;
 }
 
-@media (max-width : 1040px)
+@media (max-width : 1023px)
 {
     .search
     {
