@@ -254,7 +254,7 @@ body
     width: 100%;
     height: 100%;
     z-index: -1;
-    background-image: url(../Image/BackGround.jpg); 
+    background-image: url(../Image/Turquoise\ and\ Monochrome\ Photo\ Heading\ Website\ Facebook\ Cover.png); 
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center center;
@@ -304,13 +304,13 @@ body
     text-align: center;
     border-radius: 50%;
 }
-.mailNpassword
+.mailNpassword, .nameLogin
 {
     color: #ffff;
     font-size: 14px;
     font-family: Sarabun;
 }
-.mailNpassword input
+.mailNpassword input, .nameLogin input
 {
     border: 3px #e05314 solid;
     border-radius: 10px;
