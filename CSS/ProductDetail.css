@@ -264,12 +264,12 @@ body
     color: #ffff;
     font-size: 20px;
 }
-.originPrice
+.Price
 {
    font-size: 159%;
    color: #ef0b0b;
 }
-.newPrice
+.salePrice
 {
     color: #B7BFC3;
     font-size: 117%;
