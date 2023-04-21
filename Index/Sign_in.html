@@ -62,20 +62,24 @@
           </ul>
         </nav>
       </header>
-      <div class="Sign_in_body" id="login-from">
+      <div class="Sign_in_body" id="login_form">
         <form class="form">
           <p class="text">Điền đầy đủ thông tin đăng nhập</p>
           <div class="user">
             <i class="fa-regular fa-user fa-2xl" style="color: #ffffff;line-height: 50px"></i>
           </div>
+          
           <p class="mailNpassword" id="username">ID/SDT/GMAIL:<br>
-            <input type="text" name="" id="">
+            <input type="text" name="" id="username_text" onblur="ktratendn();">
           </p>
+          <span id="ertendn" style="color: red;"></span>
           <p class="mailNpassword" id="password">PASSWORD: <br>
-            <input type="password" name="" id="">
+            <input type="password" name="" id="password_text" onblur="ktPass()">
           </p>
+          <span id="ertenpw" style="color: red;"></span>
+    
           <a href="#" class="Q">Quên mật khẩu?</a>
-          <button class="signin"><a href="Main.html" style="color: white;">Đăng nhập</a></button>
+          <button class="signin" type="submit"><a href="" style="color: white;">Đăng nhập</a></button>
           <p class="Q2">Người mới? <a href="SignUp.html">Đăng ký ngay!</a></p>
           <p class="anotherWay">Đăng nhập bằng cách khác:</p>
           <button style="color: #ffff;" class="face"><i class="fa-brands fa-facebook-f fa-xl"

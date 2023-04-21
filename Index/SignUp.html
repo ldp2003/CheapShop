@@ -62,36 +62,37 @@
           </ul>
         </nav>
       </header>
-      <div class="Sign_in_body">
-        <div class="form">
+      <div class="Sign_in_body" id="sign_up_form">
+        <form class="form">
           <p class="text">Điền đầy đủ thông tin</p>
           <div class="user">
             <i class="fa-regular fa-user fa-2xl" style="color: #ffffff;line-height: 50px"></i>
           </div>
-          <p class="mailNpassword">ID/SDT/GMAIL:<br>
-            <input type="text" name="" id="">
-          </p>
+         
           <p class="nameLogin">
             Tên đăng nhập: <br>
-            <input type="text">
+            <input type="text" id="username_text" onblur="ktratendn()">
           </p>
+          <span id="ertendn" style="color: red;"></span>
           <p class="mailNpassword">PASSWORD: <br>
-            <input type="password" name="" id="">
+            <input type="password" name="" id="txtpwd">
           </p>
           <p class="mailNpassword">Xác nhận mật khẩu: <br>
-            <input type="password" name="" id="">
+            <input type="password" name="" id="txtpwdre" onblur="ktrtrungmk()">
           </p>
-          <button class="signin">Đăng Ký</button>
+          <span id="erpwdre" style="color: red;"></span>
+          <button class="signin" type="submit">Đăng Ký</button>
           <p class="anotherWay">Đăng nhập bằng cách khác:</p>
           <button style="color: #ffff;" class="face"><i class="fa-brands fa-facebook-f fa-xl"
               style="color: #ffffff;"></i> Đăng nhập bằng facebook</button>
           <p style="color: #ffff; margin: 0;">Hoặc</p>
           <button class="google"><i class="fa-brands fa-google fa-xl" style="color: #ffffff;"></i> Đăng nhập bằng
             google</button>
-        </div>
+        </form>
       </div>
     </div>
   </div>
+  <script src="../JS/Sign_up.js"></script>
 </body>
 
 </html>
