@@ -382,10 +382,11 @@ margin: 0;
     content: "";
     position: absolute;
     right: 1.5%;
-    top: -14%;
+    top: -21vh;
     border-width: 20px 26px;
     border-style: solid;
     border-color: transparent transparent #ffff transparent;
+    height: 22vh;
     
 }
 .cart_list
@@ -395,8 +396,8 @@ margin: 0;
     right: -102%;
     background-color: white;
     z-index: 999999;
-    width: 400px;
-    height: 22vh;
+    width: 500px;
+    height: fit-content;
     border-radius: 2px;
     box-shadow: 0 1px 3.125rem 0  rgba(0, 0, 0, 0.2);
     display: none;
@@ -404,7 +405,12 @@ margin: 0;
 .no-cart
 {
     padding: 28px 0;
-    
+ 
+}
+/* hiện hình ảnh không có sản phẩm nào */
+.no-cart .no-cart_img
+{
+    display: block;
 }
 .no-cart_img
 {
@@ -412,10 +418,113 @@ margin: 0;
     width: 60%;
     height: 134%;
     border-radius: 2px;
-   
+    display: none;
 }
 .cart:hover .cart_list
 {
     display: block;
     cursor: pointer;
 } 
+.cart_badge
+{
+    position: absolute;
+    padding: 2px 6px;
+    background-color: #ffff;
+    color: #e05314;
+    line-height: 0.8rem;
+    font-size: 0.8rem;
+    border-radius: 45%;
+    border: 2px #3a4248 solid;
+    top: -36%;
+    left: 66%;
+}
+.btn
+{
+    /* border-radius: 97px; */
+    background-color: #e05314;
+    border: 0px;
+    color: white;
+    width: 222px;
+    height: 44px;
+    transform: translateX(27vh);
+    margin-bottom: 3%;
+}
+.btn:hover
+{
+    background-color: #e03514;
+    color: white;
+}
+.cart-list-item-Title
+{
+    text-align: left;
+    margin: 8px 0 8px 12px;
+    font-size: 0.8rem;
+    color: #aaa6a6;
+}
+.cart-list-item
+{
+    padding-left: 0;
+    list-style-type: none;
+    list-style: none;
+}
+
+.cart-list-item-head
+{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px rgba(134, 133, 133, 0.8) solid;
+}
+.cart-list-item-img
+{
+    width: 42px;
+    height: 42px;
+    margin: 12px;
+}
+.cart_list-item-name
+{
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: black;
+    margin: 0;
+    width: 30vh;
+}
+.cart_list-item-wrap
+{
+}
+.cart_list-item-des
+{
+}
+.cart_list-item-des-nameNprice
+{
+    display: flex;
+    justify-content: space-between;
+    width: 44vh;
+}
+.cart_list-item-price
+{
+    font-size: 1rem;
+    color: #e05314;
+}
+.cart_list-multi{
+    font-size: 0.7rem;
+    margin: 0 4px;
+    color: #757575;
+}
+.cart_list-item-qty
+{
+}
+.cart_list-item-type
+{
+}
+.cart_list-item-remove
+{
+    display: flex;
+    justify-content: end;
+    font-size: 0.9rem;
+    font: 600;
+   
+}
+.cart_list-item-remove:hover
+{
+    color: #757575;
+}
