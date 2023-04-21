@@ -17,7 +17,7 @@ function ktratendn() {
 function ktPass()
 {
   let mkS = document.getElementById("password_text").value;
-let pattendn = /^\w{4,}$/;
+let pattendn = /^\w+?$/;
 if(!pattendn.test(mkS))
 {
   document.getElementById('ertenpw').innerHTML = "Nhập mật khẩu";
