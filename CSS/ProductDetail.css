@@ -336,6 +336,11 @@ body
     font-size: 90%;
     
 }
+.link-a a:hover
+{
+color: white;
+    
+}
 .special-details_list
 {
     text-align: left;
