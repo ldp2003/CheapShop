@@ -147,6 +147,14 @@ body
 {
     margin: 25px 150px 0 150px;
 }
+.allHotPro
+{
+    color: #ffff;
+}
+.allHotPro:hover
+{
+    color: #d8d8d8;
+}
 .Hot-product, .Sale-product
 {
     background-color: #e05314;
@@ -429,8 +437,8 @@ margin: 0;
 {
     position: absolute;
     padding: 2px 6px;
-    background-color: #ffff;
-    color: #e05314;
+    background-color:  #e05314;
+    color: #ffff;
     line-height: 0.8rem;
     font-size: 0.8rem;
     border-radius: 45%;
