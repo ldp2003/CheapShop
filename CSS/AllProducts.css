@@ -585,3 +585,31 @@ margin: 0;
 {
     background-color: #bebebe;
 }
+.Sale-product-mark
+{
+    background-color: #f0f416;
+    width: 80px;
+    height: 34px;
+    color: #ef0b0b;
+    padding-top: 2%;
+    position: absolute;
+    top: 0px;
+    font-size: 80%;
+    border-top-left-radius: 21px;
+}
+.btn
+{
+    /* border-radius: 97px; */
+    background-color: #e05314;
+    border: 0px;
+    color: white;
+    width: 222px;
+    height: 44px;
+    transform: translateX(27vh);
+    margin-bottom: 3%;
+}
+.btn:hover
+{
+    background-color: #e03514;
+    color: white;
+}
