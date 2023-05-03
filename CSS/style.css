@@ -363,3 +363,61 @@ body
 {
     width: 35px;
 }
+.shopping_btn.visible:hover 
+{
+    transform: scale(1.1);
+}
+.more_btn.visible:hover{
+    transform: scale(1.1);
+}
+.slide-in {
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+  }
+  
+  .slide-in.visible {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  .slide-side-in {
+    transform: translateX(100%);
+    opacity: 0;
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+  }
+  
+  .slide-side-in.visible-slide {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+
+.slide-more-btn-in {
+    transform: translateX(100%);
+    opacity: 0;
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+  
+.slide-more-btn-in.visible {
+    transform: translateX(0%);
+  opacity: 1;
+}
+.shopping_btn
+{
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+.shopping_btn.visible {
+    transform: translateX(0%);
+    opacity: 1;
+}
+.contact
+{
+    transform: translateY(100%);
+    opacity: 0;
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+.contact.visible {
+    transform: translateY(0%);
+    opacity: 1;
+}
