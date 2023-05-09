@@ -3,6 +3,10 @@ body
     margin: 0px;
     width: 100%;
 }
+a
+{
+    text-decoration: none;
+}
 .logo
 {
     /* height: 57px;
@@ -292,6 +296,11 @@ body
     align-items: center;
     color: rgba(0, 0, 0, 1);
     padding: 0.5%;
+}
+.menu_components:hover
+{
+    background-color: #ec5c1a;
+    color: #bebebe;
 }
 .container
 {
