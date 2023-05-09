@@ -549,7 +549,7 @@ margin: 0;
 .empty
 {
     height: 3vh;
-    width: 3vh;
+    width: 2.2vh;
 }
 .cart_product-item-qty
 {
@@ -562,10 +562,16 @@ margin: 0;
 }
 .cart_product-item-remove
 {
-    height: 3vh;
-    width: 3vh;
+     height: 3vh;
+    border: 0;
+    background-color: #b1b1b1;
     text-align: center;
     color: #e05314;
+    border-radius: 20px;
+}
+.cart_product-item-remove:hover
+{
+    background-color: #a4a4a4;
 }
 .cart_product-item-rebtn
 {
