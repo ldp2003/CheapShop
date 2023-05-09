@@ -96,29 +96,6 @@ color: white;
     transform: scale(1.02);
     box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.5);
 }
-footer
-{
-    display: flex;
-    flex-direction: row;
-    background-color: #ffff;
-    justify-content: space-around;
-    padding-bottom: 15px;
-    border-top: 5px #e05314 solid;
-    margin-top: 133px;
-}
-.footer_content
-{
-    display: flex;
-    flex-direction: column;
-}
-footer p
-{
-    margin: 0;
-}
-footer img
-{
-    position: relative;
-}
 
 @media (max-width : 1040px)
 {
