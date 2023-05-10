@@ -138,6 +138,7 @@ body
     align-items: center;
     color: rgba(0, 0, 0, 1);
     padding: 0.5%;
+    position: relative;
 }
 .menu_components:hover
 {
@@ -220,9 +221,10 @@ body
     font-size: 80%;
     border-top-left-radius: 21px;
 }
-.card-img-top
+.card-img-top:hover
 {
-    transition: transform 0.3s ease-in-out;
+    transform: scale(1.02);
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.5);
 }
 .card-img-top:hover
 {
