@@ -1,0 +1,33 @@
+.adminContent{
+    display: grid;
+    grid-template-areas: "block1 block2"
+    "block3 block4";
+    justify-content: center;
+    color: white;
+}
+
+#block1 {
+    grid-area: block1;
+    text-align: center;
+    background-color: #12C7D2;
+    border-radius: 50px;
+   
+}
+#block2 {
+    grid-area: block2;
+    text-align: center;
+    background-color: #D689C2;
+    border-radius: 50px;
+}
+#block3 {
+    grid-area: block3;
+    text-align: center;
+    background-color: #88CF66;
+    border-radius: 50px;
+}
+#block4 {
+    grid-area: block4;
+    text-align: center;
+    background-color: #2985DA;
+    border-radius: 50px;
+}
