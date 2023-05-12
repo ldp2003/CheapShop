@@ -200,7 +200,7 @@
                 <div class="cart_products-item-head ">
                     <table class="table cart_products-item-head table-hover align-middle" id="cart_product-table">
                         <thead>
-                          <tr>
+                          <tr class="cart-product">
                             <th scope="col" style="font-size: 90%;">
                                 <div class="form-check" >
                                     <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate" checked>
@@ -216,7 +216,7 @@
                           </tr>
                         </thead>
                         <tbody>
-                          <tr>
+                          <tr class="cart-product">
                             <th scope="row">
                                 <div class="cart_product-item-title">
                                     <input type="checkbox" class="form-check-input" checked>
@@ -228,9 +228,9 @@
                             <td>
                                 <div class="cart_product-item-AR">
                                     <div class="cart_product-item-quantity">
-                                        <button class="cart_product-item-qty-decre qty-btn">-</button>
-                                        <div class="cart_product-item-qty">1</div>
-                                        <button class="cart_product-item-qty-incre qty-btn">+</button>
+                                        <button class="cart_product-item-qty-decre qty-btn" id="minus">-</button>
+                                        <div class="cart_product-item-qty" id="quantity" data-count="1">1</div>
+                                        <button class="cart_product-item-qty-incre qty-btn" id = "plus">+</button>
                                     </div>
                                     <div class="cart_product-item-rebtn">
                                         <div class="empty"></div>
@@ -243,7 +243,7 @@
                                 <div class="total"><b>29.000.000 đ</b></div>
                             </td>
                           </tr>
-                          <tr>
+                          <tr class="cart-product">
                             <th scope="row">
                                 <div class="cart_product-item-title">
                                     <input type="checkbox" class="form-check-input" checked>
@@ -255,9 +255,9 @@
                             <td>
                                 <div class="cart_product-item-AR">
                                     <div class="cart_product-item-quantity">
-                                        <button class="cart_product-item-qty-decre qty-btn">-</button>
-                                        <div class="cart_product-item-qty">2</div>
-                                        <button class="cart_product-item-qty-incre qty-btn">+</button>
+                                        <button class="cart_product-item-qty-decre qty-btn" id="minus">-</button>
+                                        <div class="cart_product-item-qty" id="quantity" data-count="2">2</div>
+                                        <button class="cart_product-item-qty-incre qty-btn" id = "plus">+</button>
                                     </div>
                                     <div class="cart_product-item-rebtn">
                                         <div class="empty"></div>
@@ -271,7 +271,7 @@
                                 <div class="total"><b>378.000 đ</b></div>
                             </td>
                           </tr>
-                          <tr>
+                          <tr class="cart-product">
                             <th scope="row">
                                 <div class="cart_product-item-title">
                                     <input type="checkbox" class="form-check-input" checked>
@@ -283,9 +283,9 @@
                             <td>
                                 <div class="cart_product-item-AR">
                                     <div class="cart_product-item-quantity">
-                                        <button class="cart_product-item-qty-decre qty-btn">-</button>
-                                        <div class="cart_product-item-qty">1</div>
-                                        <button class="cart_product-item-qty-incre qty-btn">+</button>
+                                        <button class="cart_product-item-qty-decre qty-btn" id="minus">-</button>
+                                        <div class="cart_product-item-qty" id="quantity" data-count="1">1</div>
+                                        <button class="cart_product-item-qty-incre qty-btn" id="plus">+</button>
                                     </div>
                                     <div class="cart_product-item-rebtn">
                                         <div class="empty"></div>
@@ -362,6 +362,7 @@
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
     crossorigin="anonymous"></script>
     <script src="../JS/removeCart.JS"></script>
+    <script src="../JS/quantity.js"></script>
 
 </body>
 
