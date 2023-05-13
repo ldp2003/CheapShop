@@ -11,6 +11,9 @@
     text-align: center;
     background-color: #12C7D2;
     border-radius: 50px;
+    transform: translate(10vh, 10vh);
+    width: 105%;
+    height: 100%;
    
 }
 #block2 {
@@ -18,16 +21,25 @@
     text-align: center;
     background-color: #D689C2;
     border-radius: 50px;
+    transform: translate(150%, 10vh);
+    width: 71%;
+    height: 100%;
 }
 #block3 {
     grid-area: block3;
     text-align: center;
     background-color: #88CF66;
     border-radius: 50px;
+    transform: translate(10vh, 20vh);
+    width: 105%;
+    height: 126%;
 }
 #block4 {
     grid-area: block4;
     text-align: center;
     background-color: #2985DA;
     border-radius: 50px;
+    transform: translate(150%, 20vh);
+    width: 71%;
+    height: 126%;
 }
